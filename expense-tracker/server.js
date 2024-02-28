@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 
 // Connect to MongoDB (make sure to replace 'your-mongodb-uri' with your actual MongoDB URI)
-mongoose.connect('mongodb+srv://shubham12342019:shubh1234@cluster0.x5v1qnr.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true }).then((data) => {
+mongoose.connect('mongodb+srv://warisamir1918:waris1918@cluster0.2wvsbor.mongodb.net/waris?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true }).then((data) => {
     console.log("db connected");
 }).catch((e) => console.log("db failed", e.message));
 
